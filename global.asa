@@ -1,0 +1,9 @@
+<SCRIPT LANGUAGE=VBScript RUNAT=Server>
+
+Sub Session_OnStart 
+				'Set the server locale 
+				Session.LCID = 1034 
+End Sub 
+
+</SCRIPT>
+

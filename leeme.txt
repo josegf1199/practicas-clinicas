@@ -1,0 +1,50 @@
+			********************************
+                        ********************************
+			*** GPC V1.0 WEB_APPLICATION ***
+			********************************
+                        ********************************
+
+info sobre la instalación en una unidad de pc basada en web server IIS v5.0 y bajo 
+la plataforma windows xp profesional sp3.
+
+
+1.- Se requiere S.O Windows XP Profesional SP3 + IIS v5.0. (No se ha testeado y 
+    adatado para en versiones superiores en S.O y Web Server IIS).
+
+
+3.- Copiar todo el contenido del CD en la carpeta 'gpc' dentro de la ruta 
+    C:\Inetpub\wwwroot\gpc
+
+3.- Establecer en orígenes de datos (ODBC) el acceso a la base de datos en la 
+     carpeta 'data' y la base de datos basada en Access 2003 denominada 'dbgpc.mdb'.
+
+4.- Verificar los privilegios de administrador para el acceso total si limitación a la 
+    ejecución y carga de archivos requerido para tal fin. png, jpg, etc... 
+
+5.- Crear un acceso directo al navegador FireFox de Mozilla ejecutando el archivo 'index.asp'
+
+
+
+NOTA.
+
+ESTA APLICACIÓN BASADA EN HTML, JavaScript, CSS, ASP Y ACCESS 2003 Y UNA LIBRERIA'fpdf' DE  
+SOFTWARE LIBRE (CON REFERENCIA A SU AUTOR EN EL INTERIOR DE SU FICHERO FUENTE) Y 
+COMO USO PARA LA GENERACIÓN DE ARCHIVOS PDF SOLO ESTA DESARROLLADA COMO APLICACIÓN PARA 
+SER EJECUTADA EN UN PC Y NO EM MODO WEB BAJO UN DOMINIO EXTERNO EN INTERNET.
+(REQUERIRIA OTRAS ADAPTACIONES Y SE DESARROLLO BAJO LAS ESPECIFICACIONES DE SOFTWARE 
+DEPARTAMENTAL GESTIONADO POR UN USUARIO ADMINISTRADOR DE ESTA APLICACIÓN.
+
+
+
+
+finalizado el viernes, 19 de diciembre de 2014 01:41 AM. 
+
+
+
+¡¡¡NO OLVIDAR LA SISTEMATICA COPIA DE SEGURIDAD A DISPOSITIVOS DE ALMACENAMIENTO 
+   EXTERNO (FIABLES) Y POR DUPLICADO DEL FICHERO DE LA BASE DE DATOS ACCESS 2003 
+   'dbgpc.mdb' UBICADO EN LA CARPETA '\data\'. 
+   
+   DICHO BACKUP SE REALIZARA ESTANDO CERRADA LA APLICACIÓN WEB.!!!
+			
+
